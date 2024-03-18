@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 2px black solid;
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-auto-columns: 150px;
+  grid-auto-flow: column;
+  gap: 20px;
+  place-content: center;
+}
+.container .item {
+  border: 5px solid #f9fbfb;
+  font-size: 4rem;
+  background-color: #1b9736;
+}/*# sourceMappingURL=main.css.map */
